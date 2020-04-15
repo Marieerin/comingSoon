@@ -1,6 +1,3 @@
-/* 
-color pallet
-*/
 html {
   line-height: 1.15;
   -ms-text-size-adjust: 100%;
@@ -238,10 +235,49 @@ html {
   overflow: hidden;
 }
 
+body {
+  background-color: #f78554;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-image: url("https://www.transparenttextures.com/patterns/cardboard.png");
+  /* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
+}
+
+div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  height: 200px;
+  margin-top: 33vh;
+  border: 3px dotted #fcfcfc;
+  border-radius: 50%;
+  background-color: #f7cf85;
+  background-image: url("https://www.transparenttextures.com/patterns/cardboard.png");
+}
+
 h1 {
-  color: #f78554;
+  color: #333333;
+  font-family: "Bungee Shade", cursive;
 }
 
 span {
-  color: #f7cf85;
+  color: #87b6a7;
+  font-family: "Bungee", cursive;
 }

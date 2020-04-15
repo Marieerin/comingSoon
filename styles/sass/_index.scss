@@ -1,6 +1,28 @@
+body {
+    background-color: $one;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("https://www.transparenttextures.com/patterns/cardboard.png");
+    /* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
+}
+div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 200px;
+    margin-top: 33vh;
+    border: 3px dotted $white;
+    border-radius: 50%;
+    background-color: $two;
+    background-image: url("https://www.transparenttextures.com/patterns/cardboard.png");
+}
 h1 {
-    color: $one;
+    color: $black;
+    font-family: $mainFont;
 }
 span {
-    color: $two;
+    color: $three;
+    font-family: $secondaryFont;
 }
